@@ -8,9 +8,17 @@ The voice samples are pre-processed by acoustic analysis in R using the seewave 
 with an analyzed frequency range of 0hz-280hz (human vocal range).
 
 These files include a bunch of popular methods nowadays, such as Neural Network, SVM, 
-and PCA (which is used to kill dimensions)
+and PCA (which is used to kill dimensions):
 
-The codes are all writen in Python and can be run directly without compile.
+--voice.csv is the dataset of this project.
+--NN.ipynb is self-made simple Neural Network which works really well.
+--PCA.ipynb is a self-made simple PCA algorithm to reduce dimension.
+--PCA_matplotlib.ipynb applied PCA method from matplotlib packge.
+--PCA_sklearn.ipynb applied PCA method from sklearn pack.
+--sklearn and matplotlib are two great packages for machine learning.
+--start_up.R consists of 2 basic methods(baseline method and logistic regression)
+
+The codes are all writen in Python(except start_up.R) and can be run directly without compile.
 
 And I also uploaded some files which implemented certain existed famous packages like matplotlib, sklearn, etc.
 
